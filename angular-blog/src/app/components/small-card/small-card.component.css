@@ -18,3 +18,22 @@
 hr{
     margin: 5px 0 10px 0;
 }
+
+@media screen and (max-width:600px) {
+    .container-small-card-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+   
+    .small-card-img img{
+        width: 100px;
+        margin-right: 2px;
+        padding-right: 5px;
+        
+    }
+
+     
+  }

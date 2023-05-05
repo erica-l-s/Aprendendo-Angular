@@ -17,3 +17,21 @@
 .big-card-description p {
     color: gray;
 }
+
+@media screen and (max-width:600px) {
+
+    .container-big-card{
+       
+        margin: 0px 30px 0 40px;
+        padding: 0 5px 10px 0;
+    }
+    
+    .big-card-img img{
+        width: 200px;
+     }
+     .big-card-title h1{
+        font-size: 20px;
+    }
+    
+     
+  }
